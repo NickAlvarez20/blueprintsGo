@@ -16,3 +16,16 @@ The `main.go` file includes implementations for the following exercises:
 - **Repeat String**: Repeats a string a specified number of times.
 - **First Character**: Returns the first character of a string.
 - **Positive Number**: Checks if a number is positive or not.
+
+- ### New Functions Added in `dotMethods.go` Branch:
+
+- **HelloWorld**: Returns "Hello, World!"
+- **SumTwo**: Returns the sum of two numbers.
+- **greetName**: Greets by name using `fmt.Printf`.
+- **rectArea**: Calculates the area of a rectangle.
+- **isEven**: Determines if a number is even or odd.
+- **MaxTwo**: Returns the maximum of two numbers.
+- **squaredNumber**: Calculates the square of a number.
+- **celciusToFarenheit**: Converts Celsius to Fahrenheit.
+- **stringLength**: Returns the length of a string.
+- **reverseVariables**: Swaps and concatenates two string variables. 
