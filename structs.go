@@ -34,8 +34,11 @@ func (c *CoffeeCollection) newCoffee(color, flavor string, ounces int) {
 //func main for creating program
 func main(){
 	//Initialize new coffee collection
-	lightCollection := []CoffeeCollection{}
-	//Append new coffe into light collection
-	
+	lightCollection := CoffeeCollection{}
+	//Append new coffee into light collection
+	lightCollection.newCoffee("Light", "Bitter", 24)
+
+	fmt.Println(lightCollection)
 }
 
+//go run structs.go
