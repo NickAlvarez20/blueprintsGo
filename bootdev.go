@@ -30,15 +30,14 @@ type wheel struct{
 
 func main(){
 	//Initialize a new car
-	UniverseCar := car{}
+	UniverseCar := car{brand: "Tesla", model: "Roaster", doors: 4, mileage: 100000, frontWheel: wheel{radius: 100, material: "Plywood"}, backWheel: wheel{radius: 200, material: "Glue"}}
 	//Create a value for wheel
-	UniverseCar.backWheel.radius = 10
-	UniverseCar.frontWheel.radius = 12
 	backWheelRadius := UniverseCar.backWheel.radius
 	frontWheelRadius := UniverseCar.frontWheel.radius
 
 
 	fmt.Printf("The radius of the front wheel is %d, and the back wheel radius is %d\n", backWheelRadius, frontWheelRadius)
+	fmt.Printf("The material made in front wheel of the %s is %s. The material used in making the back wheel of the %s is %s.\n", UniverseCar.brand, UniverseCar.frontWheel.material, UniverseCar.brand, UniverseCar.backWheel.material)
 }
 
 // go run bootdev.go
