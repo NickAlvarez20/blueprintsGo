@@ -46,7 +46,7 @@ Clone the repository to your local machine:
 ## Usage
 Run the Go script (main.go) from the command line: 
 
-`go run main.go`
+`go run test.go`
 
 ## Learning Outcomes
 This project helped me:
@@ -66,6 +66,6 @@ This is primarily a personal learning / portfolio repository, so formal contribu
 This repository is open and free for educational use.
 *(If you decide on a specific license later, insert it here — e.g. MIT, Apache 2.0, etc.)*
 ## Credits & Acknowledgements
-This project was created by NickAlvarez20 as part of my journey to learn [insertProgrammingLanguage] programming. Check out my other repositories to see more of my work!
+This project was created by NickAlvarez20 as part of my journey to learn Go programming. Check out my other repositories to see more of my work!
 ## Contact
 You can find more of my work at [NickAlvarez20 on GitHub](https://github.com/NickAlvarez20).
